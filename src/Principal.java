@@ -25,7 +25,7 @@ public class Principal {
         // Exibe todos os elementos da lista, iterando sobre cada objeto do tipo Pessoa
         System.out.println("Lista de Pessoas:");
         for (Pessoa pessoa : listaDePessoas) {
-            System.out.println(pessoa);
+            System.out.println(pessoa.toString());
         }
     }
 }
