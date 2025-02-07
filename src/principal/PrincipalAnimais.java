@@ -1,6 +1,9 @@
-package animais;
+package principal;
 
-public class principal {
+import animais.Animal;
+import animais.Cachorro;
+
+public class PrincipalAnimais {
     public static void main(String[] args) {
         // Cria um objeto do tipo Cachorro
         Cachorro cachorro = new Cachorro();

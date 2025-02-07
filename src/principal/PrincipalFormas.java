@@ -1,8 +1,12 @@
-package formas;
+package principal;
+
+import formas.Circulo;
+import formas.Forma;
+import formas.Quadrado;
 
 import java.util.ArrayList;
 
-public class Principal {
+public class PrincipalFormas {
     public static void main(String[] args) {
         // Criando objetos do tipo Circulo e Quadrado
         Forma circulo = new Circulo(5); // Raio 5

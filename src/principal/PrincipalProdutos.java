@@ -1,10 +1,12 @@
-package produtos;
+package principal;
+
+import produtos.Produto;
 
 import java.util.ArrayList;
 
 import static produtos.Produto.calcularPrecoMedio;
 
-public class Principal {
+public class PrincipalProdutos {
     public static void main(String[] args) {
         // Criando objetos de Produto
         Produto produto1 = new Produto("Camiseta", 49.99);

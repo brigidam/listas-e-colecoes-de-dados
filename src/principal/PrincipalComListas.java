@@ -1,4 +1,8 @@
-package modelos;
+package principal;
+
+import modelos.Filme;
+import modelos.Serie;
+import modelos.Titulo;
 
 import java.util.*;
 

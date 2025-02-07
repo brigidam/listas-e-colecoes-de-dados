@@ -1,8 +1,10 @@
-package contabancaria;
+package principal;
+
+import contabancaria.ContaBancaria;
 
 import java.util.ArrayList;
 
-public class Principal {
+public class PrincipalContaBancaria {
     public static void main(String[] args) {
         // Criando contas bancárias com diferentes saldos
         ContaBancaria conta1 = new ContaBancaria("12345", 1500.50);

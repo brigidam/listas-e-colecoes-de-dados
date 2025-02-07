@@ -1,8 +1,10 @@
-package pessoas;
+package principal;
+
+import pessoas.Pessoa;
 
 import java.util.ArrayList;
 
-public class Principal {
+public class PrincipalPessoas {
     public static void main(String[] args) {
 
         // Criando uma lista dinâmica para armazenar objetos do tipo Pessoa
