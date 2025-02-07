@@ -52,4 +52,9 @@ public class Serie extends Titulo {
         // Calcula a duração total multiplicando o número de temporadas, episódios por temporada e minutos por episódio
         return temporadas * episodiosPorTemporada * minutosPorEpisodio;
     }
+
+    @Override
+    public String toString() {
+        return "Série: " + this.getNome() + "(" + this.getAnoDeLancamento() + ")";
+    }
 }

@@ -1,7 +1,10 @@
 package modelos;
 
+import java.util.ArrayList;
+import java.util.List;
+
 // Classe Titulo representa um título de mídia (como um filme ou série).
-public class Titulo {
+public class Titulo implements Comparable<Titulo> {
 
     // Atributos privados para garantir o encapsulamento.
     private String nome;
@@ -80,5 +83,12 @@ public class Titulo {
     // Método que calcula e retorna a média das avaliações do título
     public double pegaMedia() {
         return somaDasAvaliacoes / totalDeAvaliacoes;
+    }
+
+    //O método compareTo() em Java faz parte da interface Comparable<T>, que permite definir uma ordem natural para objetos de uma classe específica.
+    @Override
+    public int compareTo(Titulo outroTitulo) {
+        // Compara os títulos com base no nome em ordem alfabética
+        return this.getNome().compareTo(outroTitulo.getNome());
     }
 }
